@@ -1,7 +1,7 @@
-package io.github.dmitry404.kcoderdata.services;
+package io.katacoder.services;
 
-import io.github.dmitry404.kcoderdata.domain.Exercise;
-import io.github.dmitry404.kcoderdata.repositories.ExercisesRepository;
+import io.katacoder.domain.Exercise;
+import io.katacoder.repositories.ExercisesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;

@@ -1,7 +1,7 @@
-package io.github.dmitry404.kcoderdata.web;
+package io.katacoder.web;
 
-import io.github.dmitry404.kcoderdata.domain.Exercise;
-import io.github.dmitry404.kcoderdata.services.ExercisesDataService;
+import io.katacoder.domain.Exercise;
+import io.katacoder.services.ExercisesDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;

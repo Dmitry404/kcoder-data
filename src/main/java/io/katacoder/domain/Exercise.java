@@ -1,4 +1,4 @@
-package io.github.dmitry404.kcoderdata.domain;
+package io.katacoder.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

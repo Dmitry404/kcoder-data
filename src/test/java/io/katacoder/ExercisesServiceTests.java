@@ -1,5 +1,8 @@
-package io.github.dmitry404.kcoderdata;
+package io.katacoder;
 
+import io.katacoder.domain.Exercise;
+import io.katacoder.repositories.ExercisesRepository;
+import io.katacoder.services.ExercisesDataService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -7,9 +10,6 @@ import org.junit.jupiter.params.provider.ValueSource;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import io.github.dmitry404.kcoderdata.domain.Exercise;
-import io.github.dmitry404.kcoderdata.repositories.ExercisesRepository;
-import io.github.dmitry404.kcoderdata.services.ExercisesDataService;
 import reactor.core.publisher.Flux;
 import reactor.test.StepVerifier;
 

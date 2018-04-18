@@ -1,4 +1,4 @@
-package io.github.dmitry404.kcoderdata.bootstrap;
+package io.katacoder.bootstrap;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

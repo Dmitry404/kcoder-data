@@ -1,4 +1,4 @@
-package io.github.dmitry404.kcoderdata;
+package io.katacoder;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

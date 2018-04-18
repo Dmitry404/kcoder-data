@@ -1,7 +1,7 @@
-package io.github.dmitry404.kcoderdata.bootstrap;
+package io.katacoder.bootstrap;
 
-import io.github.dmitry404.kcoderdata.domain.Exercise;
-import io.github.dmitry404.kcoderdata.repositories.ExercisesRepository;
+import io.katacoder.domain.Exercise;
+import io.katacoder.repositories.ExercisesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.core.io.Resource;
@@ -15,7 +15,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.UUID;
-import java.util.stream.Stream;
 
 @Component
 public class DataPopulateCLR implements CommandLineRunner {

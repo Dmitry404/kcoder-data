@@ -1,6 +1,6 @@
-package io.github.dmitry404.kcoderdata.repositories;
+package io.katacoder.repositories;
 
-import io.github.dmitry404.kcoderdata.domain.Exercise;
+import io.katacoder.domain.Exercise;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
 

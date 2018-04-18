@@ -1,6 +1,6 @@
-package io.github.dmitry404.kcoderdata;
+package io.katacoder;
 
-import io.github.dmitry404.kcoderdata.domain.Exercise;
+import io.katacoder.domain.Exercise;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
